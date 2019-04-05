@@ -41,6 +41,18 @@ sudo systemctl enable countdown.service
 sudo systemctl start countdown.service
 ```
 
+## Extension
+
+![Power SHIM](https://github.com/pierreyvesbaloche/countdown/blob/master/resources/onoff_shim.jpg)
+
+As the Scroll Bot should be controllable easily when it comes to turning it ON or OFF, I would recommend to complete the hardware setup with Pimoronit's OnOff SHIM (https://shop.pimoroni.com/products/onoff-shim).
+
+![Easy Access](https://github.com/pierreyvesbaloche/countdown/blob/master/resources/onoff_easy.jpg)
+
+By doing so, you also "move" to the side the required power connection for the Scroll Bot, which I find much more efficient.
+
+![Portable Scroll Bot](https://github.com/pierreyvesbaloche/countdown/blob/master/resources/onoff_portable.jpg)
+
 ## Documentation & Support
 
 * Pimoroni Guides and tutorials - https://learn.pimoroni.com/scroll-phat-hd
