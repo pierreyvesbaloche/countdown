@@ -28,6 +28,19 @@ The following elements are being presented when the deadline is not reached yet:
 
 Once reached, a proper animation is replacing the countdown.
 
+## Service configuration
+If you'd wish to have this countdown automatically started when you power on your Scroll Bot, you can use the provided service template, in the scripts directory.
+
+```bash
+sudo cp scripts/countdown.service.template scripts/countdown.service
+sudo cp scripts/countdown.service /lib/systemd/system/
+sudo chmod 644 /lib/systemd/system/countdown.service 
+sudo pip3 install -r requirements.txt 
+sudo systemctl daemon-reload
+sudo systemctl enable countdown.service
+sudo systemctl start countdown.service
+```
+
 ## Documentation & Support
 
 * Pimoroni Guides and tutorials - https://learn.pimoroni.com/scroll-phat-hd
