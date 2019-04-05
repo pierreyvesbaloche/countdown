@@ -65,7 +65,7 @@ try:
             # print("{}".format(pyis_countdown))                        # <------- UNCOMMENT TO SEE COUNTDOWN
             timeframe = pyis_countdown.split(" ")
             if len(timeframe) > 1:
-                pyis_countdown_days = timeframe[0]
+                pyis_countdown_days = int(timeframe[0])
                 pyis_countdown_time = timeframe[2]
             else:
                 pyis_countdown_days = 0
