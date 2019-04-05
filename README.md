@@ -16,6 +16,18 @@ python project-countdown.py --deadline "Wed, 10 Apr 2019 10:00:00" --my_timezone
 * my_timezone : The timezone details for the calculation of the countdown.
 * target_timezone : The timezone in which the dedline is expressed.
 
+## Display
+The following elements are being presented when the deadline is not reached yet:
+* Hours & Minutes remaining
+* Visual progress bar for the seconds
+* Visual indication of days remaining :
+  * by 3x1 blocks at the bottom, for at least 4 days 
+  * by spaced 1 pixel blocks, on the last day
+
+![Animated Countdown](https://github.com/pierreyvesbaloche/countdown/blob/master/resources/scroll-countdown.gif)
+
+Once reached, a proper animation is replacing the countdown.
+
 ## Documentation & Support
 
 * Pimoroni Guides and tutorials - https://learn.pimoroni.com/scroll-phat-hd
