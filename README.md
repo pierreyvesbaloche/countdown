@@ -3,7 +3,7 @@
 You want to have a visual countdown for an upcoming crowdfunded project ?
 Then search no more as this variation for Pimoroni's Scroll Bot (https://shop.pimoroni.com/products/scroll-bot-pi-zero-w-project-kit) or Scroll pHAD HD (https://shop.pimoroni.com/products/scroll-phat-hd), allows you to set the deadline of the project, taking into account different timezones.
 
-![Countdown](https://github.com/pierreyvesbaloche/countdown/resources/scroll-countdown.png)
+![Countdown](https://github.com/pierreyvesbaloche/countdown/blob/master/resources/scroll-countdown.png)
 
 ## Execute
 
